@@ -26,9 +26,7 @@
               <th scope="col" class="px-6 py-3">Name</th>
               <th scope="col" class="px-6 py-3">Email</th>
               <th scope="col" class="px-6 py-3">Phone</th>
-              <th scope="col" class="px-6 py-3">
-                Address ( street, city, zipcode )
-              </th>
+              <th scope="col" class="px-6 py-3">Address</th>
               <th scope="col" class="px-6 py-3">Website</th>
               <th scope="col" class="px-6 py-3 text-center">Actions</th>
             </tr>
@@ -97,9 +95,7 @@
               </td>
               <td class="px-6 py-4">${User.email}</td>
               <td class="px-6 py-4">+${formatPhone(User.phone)}</td>
-              <td class="px-6 py-4">${User.address.street}, ${
-          User.address.city
-        } ${User.address.zipcode}</td>
+              <td class="px-6 py-4">${User.address.street}</td>
               <td class="px-6 py-4">${User.website}</td>
               <td class="px-6 py-4 text-right">
                 <button onclick="" class="text-blue-600 hover:underline px-2">
